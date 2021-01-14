@@ -1,0 +1,37 @@
+#userIcon {display:inline-block;margin-right:10px;}
+#username {display:inline-block;}
+
+.IonTitle {
+    width: min-content;
+}
+
+.messageText {
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.messageText:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 61px solid transparent;
+    border-bottom-color: #3b5998;
+    border-top: 0;
+    border-left: 0;
+    margin-left: -30.5px;
+    margin-top: -61px;
+}
+
+.textArea {
+    position: fixed;
+    height: 20px;
+    padding-top: 10000px;
+}

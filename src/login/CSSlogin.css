@@ -1,0 +1,44 @@
+.IonPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    font-size: 22px;
+    max-width: 500px;
+    min-height: 672px;
+
+    margin: 0 auto;
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.IonPage > IonInput {
+    margin-top: 200px;
+}
+
+IonInput {
+    margin: 0 auto;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    margin-top: 10px;
+    width: 300px;
+    height: 59px;
+    font-size: 22px;
+    margin-bottom: 14px;
+    max-width: 527px;
+    padding: 0 10%;
+}
+
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+/*IonButton {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+}*/
